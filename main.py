@@ -27,3 +27,11 @@ apt_search2("Charlotte",1200)
 apt_search2("San Francisco", 1100, 2)
 apt_search2(city="San Francisco", max_rent=1000, pets_allowed=True)
 
+addMode = lambda a : a + 10
+print (addMode(5))
+exponentMode=lambda a : a ** 2
+print (exponentMode(10))
+dashMode=lambda a : "-"+ a
+print (dashMode("Taco"))
+divideMode= lambda a: a/3
+print(divideMode(6))
